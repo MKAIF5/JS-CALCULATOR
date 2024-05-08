@@ -61,7 +61,7 @@ td {
     cursor: pointer;
   }
 }
-/*
+
 @media only screen and (max-width: 275px) {
   table,
   tr,
@@ -77,4 +77,4 @@ td {
   h1 {
     font-size: 25px;
   }
-} */
+} 
