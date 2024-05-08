@@ -65,7 +65,10 @@ td {
 @media only screen and (max-width: 275px) {
   table,
   tr,
+
+  
   td {
+  
     border: 1px groove white;
     border-collapse: collapse;
     text-align: center;
