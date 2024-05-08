@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <br />
+    <h1 class="calculator">
+      <center><b>CALCULATOR</b></center>
+    </h1>
+    <br /><br />
+    <center>
+      <table style="border: solid 1px white">
+        <tr class="perform-field">
+          <td id="textPerform" class="text" colspan="4"></td>
+        </tr>
+        <tr>
+          <td onclick="clk('+')">+</td>
+          <td onclick="clk('-')">-</td>
+          <td onclick="clk('*')">*</td>
+          <td onclick="clk('/')">/</td>
+        </tr>
+        <tr>
+          <td onclick="clk(7)">7</td>
+          <td onclick="clk(8)">8</td>
+          <td onclick="clk(9)">9</td>
+          <td onclick="eql()" class="equal" rowspan="4">=</td>
+        </tr>
+        <tr>
+          <td onclick="clk(4)">4</td>
+          <td onclick="clk(5)">5</td>
+          <td onclick="clk(6)">6</td>
+        </tr>
+        <tr>
+          <td onclick="clk(1)">1</td>
+          <td onclick="clk(2)">2</td>
+          <td onclick="clk(3)">3</td>
+        </tr>
+
+        <tr>
+          <td onclick="clk(0)">0</td>
+          <td onclick="clk('.')">.</td>
+          <td onclick="clr()">AC</td>
+        </tr>
+      </table>
+    </center>
+
+    <script src="script.js"></script>
+  </body>
+</html>
